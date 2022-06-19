@@ -1,5 +1,16 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <Title text="Test About"></Title>
   </div>
 </template>
+
+<script>
+import Title from "../components/Title";
+
+export default {
+  name: 'AboutView',
+  components: {
+    Title
+  }
+}
+</script>
